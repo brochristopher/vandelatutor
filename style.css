@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 :root {
-  --primary-dark: #666564;
+  --black: #333;
   --primary-blue: #369fbf;
   --secondary-pink: #bf366a;
   --secondary-blue: #8fbcff;
@@ -22,7 +22,7 @@ a:active {
 }
 
 body {
-  background: var(--primary-dark);
+  background: var(--black);
   width: 100vw;
   margin: auto;
   padding: 0;
@@ -128,7 +128,4 @@ footer {
 }
 #subjects {
   grid-area: subjects;
-}
-
-#testimonials {
 }
