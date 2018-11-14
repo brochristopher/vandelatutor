@@ -115,17 +115,23 @@ footer {
   margin: 0.25rem;
   align-items: center;
 }
+
 #navbar li {
     width: auto;
 }
 
 #about {
   grid-area: about;
-  margin: auto;
 }
 #qualifications {
   grid-area: qualifications;
 }
 #subjects {
   grid-area: subjects;
+}
+
+@media (max-width: 680px) {
+  body {
+    max-width: 100vw;
+  }
 }
